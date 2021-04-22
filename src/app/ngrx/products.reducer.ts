@@ -3,10 +3,10 @@ import { ProductsActions, ProductsActionsTypes } from './products.actions';
 import { Action } from '@ngrx/store';
 
 export enum ProductsStateEnum {
-  LOADING = "Loading",
-  LOADED = "Loaded",
-  ERROR = "Error",
-  INITIAL = "Initial"
+  LOADING = 'Loading',
+  LOADED = 'Loaded',
+  ERROR = 'Error',
+  INITIAL = 'Initial'
 }
 export interface ProductsState {
   products: Product[];
