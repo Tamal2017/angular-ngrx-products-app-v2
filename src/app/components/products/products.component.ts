@@ -16,7 +16,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
     this.productsState$ = this.store.pipe(
-      map((state) => state.catalogState)
+      map((state) => state.mainState)
     );
   }
 }
